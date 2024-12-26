@@ -1,0 +1,131 @@
+
+body{
+  background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif; 
+    color: #333;
+    line-height: 1.6;
+    font-size: 10px; 
+    text-align: center; 
+  
+}
+
+span{
+  background-color: #ffffff;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+#Sort{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 60px ;
+}
+
+
+
+#container {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  background-color:white;
+  border: 1px solid black;
+  }
+
+#container1 {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  border: 1px solid black;
+  }
+
+#container-heap {
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    background-color:white;
+    border: 1px solid black;
+}
+
+#container-merge{
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  border: 1px solid black;
+}
+#container-Quick{
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  border: 1px solid black;
+}
+/* #insertion-Container{
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  background-color: white;
+  border: 1px solid black;
+} */
+
+
+.bar{
+    background-color: black;
+    width: 10px;
+    margin: 2px;
+}
+.bar1{
+  background-color: black;
+  width: 10px;
+  margin: 2px;
+}
+.barheap{
+  background-color: black;
+  width: 10px;
+  margin: 2px;
+}
+.barMerge{
+  background-color: black;
+  width: 10px;
+  margin: 2px;
+  transition: height 0.5s ease-in-out;
+}
+
+.highlight {
+  background-color: rgb(58, 58, 56);  /* Highlighting merged elements */
+}
+
+.barQuick{
+  background-color: black;
+  width: 10px;
+  margin: 2px;
+}
+
+.barInsertion {
+  width: 20px;
+  background-color: black;
+  margin: 1px;
+  transition: height 0.5s ease;
+}
+button {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;  /* Rounded corners */
+  transition: all 0.3s ease; /* Smooth transition */
+}
+

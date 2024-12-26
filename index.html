@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <span><h1>Sorting Visualizer</h1></span>
+    <div id="Sort">
+
+        <div>
+            <h1>Bubble Sort</h1>
+            <div id="container">  </div>
+           <br>
+            <div>
+                <button onclick="init()">Initialize</button>
+                <button  onClick="play()">Play</button>
+            </div>
+        </div> 
+
+        
+        <div>
+            <h1>Selection  Sort</h1>
+            <div id="container1">  </div>
+            <br>
+            <div>
+                <button onclick="initselection()">Initialize</button>
+                <button onclick="selectionPlay()">Play</button>
+            </div>
+        </div>
+
+
+        <div>
+            <h1>Heap Sort</h1>
+            <div id="container-heap">  </div>
+            <br>
+            <div>
+                <button onclick="initHeap()">Initialize</button>
+                <button onclick="heapPlay()">Play</button>
+            </div>
+        </div>
+    
+
+        <div>
+            <h1>Merge Sort</h1>
+            <div id="container-merge"></div>
+            <br>
+            <div>
+                <button onclick="initMerge()">Initialize</button>
+                <button onclick="mergePlay()">Play</button>
+            </div>
+        </div>
+
+      
+        <div>
+            <h1>Quick Sort</h1>
+            <div id="container-Quick"></div>
+            <br>
+            <div>
+                <button onclick="initQuick()">Initialize</button>
+                <button onclick="playQuick()">Play</button>
+            </div>
+        </div>
+
+        <!-- <div>
+            <h1>Insertion Sort</h1>
+            <div id="insertion-Container"></div>
+            <br>
+            <div>
+                <button onclick="initialize()">Init</button>
+                <button onclick="startSorting()">Start Sorting</button>
+            </div>
+        </div> -->
+        
+      
+        
+
+    </div>
+
+
+
+    <script src="selectionSort.js" ></script>
+    <script src="bubbleSort.js"></script>
+    <script src="heapSort.js"></script> 
+    <script src="mergeSort.js"></script>
+    <script src="quickSort.js"></script>
+    <!-- <script src="inerstionSort.js"></script> -->
+</body>
+</html>
